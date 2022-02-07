@@ -21,7 +21,7 @@ public class MergeSort {
     }
     private void merge(int[] array, int left, int mid, int right, int[] helper) {
         // copy contents to helper array, and we will merge from the helper array
-        for (int i = 0; i <= right; i++) {
+        for (int i = left; i <= right; i++) {
             helper[i] = array[i];
         }
         int leftIdx = left;
