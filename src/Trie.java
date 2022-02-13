@@ -2,7 +2,7 @@ public class Trie {
     TrieNode root; // root is dummy
 
     public Trie() {
-        root = new TrieNode();
+        root = new TrieNode('\0');
     }
 
     public void insert(String word) {
